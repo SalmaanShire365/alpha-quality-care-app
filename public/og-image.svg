@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0F2D40"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#og-grad)"/>
+  <defs>
+    <linearGradient id="og-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E6B9A;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0F2D40;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <text x="600" y="270" font-family="sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">Alpha Quality Care</text>
+  <line x1="400" y1="310" x2="800" y2="310" stroke="#2EB8B0" stroke-width="3"/>
+  <text x="600" y="370" font-family="sans-serif" font-size="32" fill="#a8d8f0" text-anchor="middle">Compassionate Care, Right at Home</text>
+</svg>
