@@ -8,7 +8,6 @@ type CareersSectionProps = {
   description: string;
   benefits: string[];
   stats: Stat[];
-  applyEmail: string;
   applyLabel: string;
 };
 
@@ -17,7 +16,6 @@ export default function CareersSection({
   description,
   benefits,
   stats,
-  applyEmail,
   applyLabel,
 }: CareersSectionProps) {
   return (
@@ -26,15 +24,26 @@ export default function CareersSection({
         <div className="flex flex-col gap-6">
           <h2 className="section-heading text-left">{heading}</h2>
           <p className="text-brand-muted leading-relaxed">{description}</p>
+
           <ul className="flex flex-col gap-2.5">
             {benefits.map((benefit) => (
-              <li key={benefit} className="flex items-start gap-2.5 text-sm text-brand-slate">
-                <span className="mt-0.5 text-brand-accent font-bold" aria-hidden="true">✓</span>
+              <li
+                key={benefit}
+                className="flex items-start gap-2.5 text-sm text-brand-slate"
+              >
+                <span
+                  className="mt-0.5 text-brand-accent font-bold"
+                  aria-hidden="true"
+                >
+                  ✓
+                </span>
                 {benefit}
               </li>
             ))}
           </ul>
-          <Button href={`mailto:${applyEmail}`} size="lg" className="self-start">
+
+          {/* ROUTES TO APPLICATION PAGE */}
+          <Button href="/careers/" size="lg" className="self-start">
             {applyLabel}
           </Button>
         </div>

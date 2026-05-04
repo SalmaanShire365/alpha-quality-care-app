@@ -10,7 +10,7 @@ export default function HomePage() {
     <>
       <HeroSection
         heading="Compassionate Care, Right at Home"
-        subheading="Alpha Quality Care provides professional, dignified home care services for seniors, individuals with disabilities, and families across our community."
+        subheading="Alpha Quality Care1 provides professional, dignified home care services for seniors, individuals with disabilities, and families across our community."
         ctaPrimary={{ label: "Our Services", href: "/services" }}
         ctaSecondary={{ label: "Contact Us", href: "/contact" }}
         imageSrc="/hero-placeholder.svg"
@@ -30,8 +30,7 @@ export default function HomePage() {
         heading={careerInfo.heading}
         description={careerInfo.description}
         benefits={careerInfo.benefits}
-        stats={careerStats}
-        applyEmail={careerInfo.applyEmail}
+        stats={careerStats} 
         applyLabel={careerInfo.applyLabel}
       />
       <ContactSection

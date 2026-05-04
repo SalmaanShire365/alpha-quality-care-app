@@ -34,16 +34,17 @@ export const services: Service[] = [
     ],
   },
   {
-    id: "cleaning",
-    title: "Cleaning Services",
-    description:
-      "Thorough, professional cleaning tailored to the unique needs of each client's home.",
-    icon: "/icons/cleaning.svg",
-    details: [
-      "Deep cleaning and sanitization",
-      "Kitchen and bathroom cleaning",
-      "Vacuuming, mopping, and dusting",
-      "Window and surface cleaning",
-    ],
-  },
+  id: "behavioral-support",
+  title: "Behavioral Observation & Support",
+  description:
+    "Attentive behavioral support that promotes safety, emotional well-being, and clear communication of needs during daily activities.",
+  icon: "/icons/adl.svg",
+  details: [
+    "Behavioral observation and documentation",
+    "Redirection and de-escalation techniques",
+    "Support during challenging behaviors",
+    "Encouraging communication of needs and preferences",
+    "Promoting positive routines and engagement",
+  ],
+}
 ];

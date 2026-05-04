@@ -14,10 +14,10 @@ export const footerLinks = [
 ];
 
 export const siteMetadata = {
-  name: "Alpha Quality Care",
+  name: "Alpha Quality Care1",
   tagline: "Compassionate, professional home care services.",
   description:
     "Alpha Quality Care provides compassionate, professional home care services including personal care, housekeeping, and daily living assistance.",
-  url: "https://alphaqualitycare.com",
+  url: "https://alphaqualitycare1.com",
   ogImage: "/og-image.svg",
 };

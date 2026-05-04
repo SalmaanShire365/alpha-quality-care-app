@@ -7,18 +7,6 @@ export type WhoWeServeCategory = {
 
 export const whoWeServeCategories: WhoWeServeCategory[] = [
   {
-    id: "seniors",
-    title: "Seniors & Older Adults",
-    description:
-      "We support older adults who want to maintain independence and quality of life in the comfort of their own homes.",
-    examples: [
-      "Aging in place support",
-      "Companion care and social engagement",
-      "Post-hospital recovery assistance",
-      "Medication reminders",
-    ],
-  },
-  {
     id: "individuals-with-disabilities",
     title: "Individuals with Disabilities",
     description:
@@ -40,18 +28,6 @@ export const whoWeServeCategories: WhoWeServeCategory[] = [
       "Coordination with healthcare teams",
       "Emergency backup care",
       "Ongoing care planning support",
-    ],
-  },
-  {
-    id: "medicaid",
-    title: "Medicaid & State Program Recipients",
-    description:
-      "We work with clients enrolled in state-funded programs to provide covered, quality home care services.",
-    examples: [
-      "Medicaid waiver program services",
-      "State-funded personal care",
-      "Coordination with case managers",
-      "Eligible service documentation",
     ],
   },
 ];

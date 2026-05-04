@@ -1,22 +1,16 @@
-import type { Metadata } from "next";
-import CareersSection from "@/components/sections/CareersSection";
-import { careerStats, careerInfo } from "@/lib/data";
+import ApplicationForm from "@/components/forms/ApplicationForms";
 
-export const metadata: Metadata = {
-  title: "Careers",
-  description:
-    "Join the Alpha Quality Care team. We're looking for compassionate caregivers who want to make a real difference in people's lives.",
-};
-
-export default function CareersPage() {
+export default function ApplyPage() {
   return (
-    <CareersSection
-      heading={careerInfo.heading}
-      description={careerInfo.description}
-      benefits={careerInfo.benefits}
-      stats={careerStats}
-      applyEmail={careerInfo.applyEmail}
-      applyLabel={careerInfo.applyLabel}
-    />
+    <div className="container mx-auto max-w-3xl py-16 px-4">
+      <h1 className="text-3xl font-bold mb-6 text-brand-dark">
+        Apply to Join Our Team
+      </h1>
+      <p className="text-brand-muted mb-10">
+        Fill out the form below and our team will reach out to you shortly.
+      </p>
+
+      <ApplicationForm />
+    </div>
   );
 }
