@@ -1,4 +1,4 @@
-# Project: Alpha Quality Care Website
+# Project: Alpha Quality Care1 Website
 
 A modern healthcare services website rebuilt using Next.js to provide clear service information, contact capabilities, and a professional online presence.
 

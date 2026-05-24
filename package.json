@@ -2,6 +2,7 @@
   "name": "alpha-quality-care-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yourusername.github.io/alpha-quality-care-app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
